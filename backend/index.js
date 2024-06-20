@@ -2,6 +2,7 @@ require('./confing/db.js');
 const express = require('express');
 const stripe = require('stripe')('sk_test_51PQ5q0EoySXEK9DoJqPvZzIDdv2N25kQbUMKQdaseu2xhYoNzY7vYMJQWFxbVI77sBocfE905nqe2srk8sXd2fzs009irO2pUb');
 const app = express();
+const dotenv = require("dotenv").config()
 const cors = require('cors');
 const user = require('./modal/userSchema.js');
 const jwt = require('jsonwebtoken');
