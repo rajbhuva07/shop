@@ -271,7 +271,7 @@ const Cart = () => {
                 <Table striped bordered hover variant="dark">
                     <thead>
                         <tr>
-                            <th>Product</th>
+                            <th>-Product-</th>
                             <th>title</th>
                             <th>Price</th>
                             <th>Quantity</th>
