@@ -8,6 +8,7 @@ const user = require('./modal/userSchema.js');
 const jwt = require('jsonwebtoken');
 app.use(express.json());
 app.use(cors());
+app.use(express.static(path.join(__dirname, '../client/build')));
 app.post('/signup', async (req, res) => {
     try {
       let finduser = await user.findOne({ email: req.body.email });
