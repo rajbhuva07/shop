@@ -1,0 +1,19 @@
+{
+  "homepage": {
+    "categories": "Categories",
+    "addToCartSuccess": "{{product}} added to cart successfully!",
+    "alreadyInCart": "{{product}} is already in your cart!"
+  },
+  "navbar": {
+    "navbarBrand": "Navbar",
+    "home": "Home",
+    "about": "About",
+    "cart": "Cart",
+    "search": "Search",
+    "logout": "Logout",
+    "language": "Language",
+    "english": "English",
+    "french": "French"
+  }
+  
+}

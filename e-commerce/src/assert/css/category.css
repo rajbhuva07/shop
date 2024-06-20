@@ -1,0 +1,107 @@
+.star {
+    color: #ddd; /* Default star color */
+  }
+  
+  .filled {
+    color: #ffc107; /* Filled star color */
+  }
+  .category-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .category-btn {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .category-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .category-btn.active {
+    background-color: #337ab7;
+    color: #fff;
+  }
+  .card-custom {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-custom .img-fluid {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .card-custom .card-body {
+    padding: 20px;
+  }
+  
+  .card-custom .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-custom .font-bold {
+    font-weight: bold;
+  }
+  
+  .card-custom .badge {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .card-custom .review {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-custom .review h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .card-custom .review small {
+    color: #666;
+  }
+  
+  .card-custom .rating {
+    font-size: 18px;
+    color: #ffd700;
+  }
+  
+  .card-custom .btn {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .card-custom {
+      flex-direction: column;
+    }
+    .card-custom .img-fluid {
+      height: 200px;
+    }
+    .card-custom .card-body {
+      padding: 15px;
+    }
+    .card-custom .card-title {
+      font-size: 18px;
+    }
+  }

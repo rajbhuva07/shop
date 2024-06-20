@@ -1,0 +1,19 @@
+{
+  "homepage": {
+    "categories": "Catégories",
+    "category":"{category}",
+    "addToCartSuccess": "{{product}} ajouté au panier avec succès !",
+    "alreadyInCart": "{{product}} est déjà dans votre panier !"
+  },
+  "navbar": {
+    "navbarBrand": "Barre de Navigation",
+    "home": "Accueil",
+    "about": "À Propos",
+    "cart": "Panier",
+    "search": "Recherche",
+    "logout": "Déconnexion",
+    "language": "Langue",
+    "english": "English",
+    "french": "Français"
+  } 
+}
